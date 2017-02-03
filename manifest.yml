@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bootcamp-eric-iotp
+  host: bootcamp-eric-iotp
+  disk_quota: 1024M
+  services:
+  - bootcamp-ismaeel-messagehub
+  - bootcamp-eric-iotp-cloudantNoSQLDB
+  - bootcamp-eric-iotp-iotf-service
